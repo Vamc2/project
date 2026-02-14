@@ -1,0 +1,47 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* height: 80vh; */
+    position: relative;
+    margin-top: 50px;
+    width: 80vw;
+    background-color: rgb(215, 91, 173);
+    z-index: -2;
+}
+#carouselExampleFade{
+    width: 80vw;
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: rgb(234, 128, 199);
+}
+
+#text1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+#text2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#text3{
+    font-size: 1.5rem;
+    font-family: 'Valentine Romantic', cursive ;
+}
+
+#image2{
+    width: 30vw;
+    margin-bottom: 20px;
+    position: absolute;
+        top: 100px;
+        right: 0px;
+    transform:rotate(-35deg);
+}
+
+#image1{
+    width: 3vw;
+    
+}
