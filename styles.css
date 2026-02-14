@@ -7,8 +7,14 @@
     position: relative;
     margin-top: 50px;
     width: 80vw;
-    background-color: rgb(215, 91, 173);
-    z-index: -2;
+    /* From https://css.glass */
+    background: rgb(242, 86, 193);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 10, 177, 0.3);
+        z-index: -2;
 }
 #carouselExampleFade{
     width: 80vw;
@@ -25,6 +31,7 @@
 #text2{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    padding-left: 40px;
 }
 
 #text3{
